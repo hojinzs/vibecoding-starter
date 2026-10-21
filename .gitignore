@@ -1,0 +1,26 @@
+# 의존성과 빌드 결과물은 올리지 않아요. 설치하고 빌드하면 다시 생겨요.
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# 실제 열쇠가 들어가는 파일. 예시 파일만 허용해요.
+.env*
+!.env.example
+
+# 운영체제·설치 파일
+.DS_Store
+Thumbs.db
+*.dmg
+*.pem
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 배포 도구가 만드는 연결 정보
+.vercel

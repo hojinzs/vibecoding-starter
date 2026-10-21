@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "01-screen",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "checkpoints/01-screen", "--", "-p", "3101"],
+      "port": 3101
+    },
+    {
+      "name": "04-supabase",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "checkpoints/04-supabase", "--", "-p", "3104"],
+      "port": 3104
+    }
+  ]
+}
